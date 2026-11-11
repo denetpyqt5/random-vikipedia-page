@@ -1,5 +1,5 @@
 [project]
-name = "gitb"
+name = "wiki_page_finder"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,8 +8,8 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "black>=26.10.1",
     "pywikibot>=11.10.0",
+    "ruff>=0.17.4",
 ]
 
 [project.scripts]
