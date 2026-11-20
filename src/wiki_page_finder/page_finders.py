@@ -1,7 +1,10 @@
 import pywikibot
 import webbrowser
 
-pywikibot.config.base_dir = r'C:\Users\aieng\OneDrive\Desktop\random-vikipedia-page\config'
+pywikibot.config.base_dir = (
+    r"C:\Users\aieng\OneDrive\Desktop\random-vikipedia-page\config"
+)
+
 
 class WikipediaParser:
     def __init__(self):
