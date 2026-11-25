@@ -223,3 +223,9 @@ __marimo__/
 throttle.ctrl
 *apicache*
 pywikibot.lwp
+
+# --- PyCharm / JetBrains ---
+.idea/
+*.iml
+*.ipr
+*.iws

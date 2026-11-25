@@ -2,5 +2,5 @@ from page_finders import WikipediaParser
 
 if __name__ == "__main__":
     parser = WikipediaParser()
-    parser.get_random_page()
-    parser.open_url()
+    pages = parser.get_random_pages(5)
+    parser.get_pages_info(pages)
